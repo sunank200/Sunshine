@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+
+    <ListView
+        android:id="@+id/listview_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        </ListView>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Today, June 24"-->
+        <!--android:id="@+id/textViewToday"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="21°"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/textViewMax"-->
+        <!--android:layout_marginRight="55dp"-->
+        <!--android:layout_marginEnd="55dp"-->
+        <!--android:layout_below="@+id/textViewToday"-->
+        <!--android:layout_alignRight="@+id/textViewToday"-->
+        <!--android:layout_alignEnd="@+id/textViewToday"-->
+        <!--android:layout_marginTop="32dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="8°"-->
+        <!--android:textStyle="bold"-->
+        <!--android:id="@+id/textViewMin"-->
+        <!--android:layout_below="@+id/textViewMax"-->
+        <!--android:layout_alignLeft="@+id/textViewMax"-->
+        <!--android:layout_alignStart="@+id/textViewMax" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_alignBottom="@+id/textViewMin"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:src="@drawable/ic_launcher" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Cloudy"-->
+        <!--android:id="@+id/textViewWeather"-->
+        <!--android:layout_below="@+id/imageView"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+</FrameLayout>
